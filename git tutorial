@@ -1,0 +1,21 @@
+cd f:
+ cd gitrepo
+ls
+touch first.txt
+git init
+git status
+git add first.txt
+git status
+git commit -this is my first repositary
+touch index.txt
+git status
+git add index.txt
+$   git config --global user.email "vasudhapriyadarshinisamudu@gmail.com"
+ git config --global user.name "vasudha"
+git status
+git commit -m mysecondrepoingitrepo
+ git branch repoonaws
+ git push -d origin repoonaws
+git remote add origin https://github.com/vasudha020992/new-repo.git
+ git branch -M main
+ git push -u origin main
